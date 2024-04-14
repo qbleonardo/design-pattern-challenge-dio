@@ -1,4 +1,4 @@
-package strategy;
+package strategy.calcultor;
 
 public class AddOperationStrategyImpl implements OperationStrategy {
     @Override
