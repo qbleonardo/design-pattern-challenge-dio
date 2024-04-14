@@ -1,3 +1,4 @@
+import observer.ExecuteObserver;
 import singleton.ExecuteSingleton;
 import strategy.ExecuteOperationStrategy;
 
@@ -7,8 +8,11 @@ public class Main {
         /* Testes para o desafio do Singleton
          ExecuteSingleton.executeImpl(); */
 
-        // Testes para o desafio da calculadora utilizando Strategy
-        ExecuteOperationStrategy.executeImpl();
+        /* Testes para o desafio da calculadora utilizando Strategy
+        ExecuteOperationStrategy.executeImpl(); */
+
+        //Testes para o desafio do Observer
+        ExecuteObserver.executeImpl();
 
     }
 }
